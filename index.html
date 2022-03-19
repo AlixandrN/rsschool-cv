@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="style.css" media="all"> -->
+    <title>CV Nasanovich Aliaksandr</title>
+</head>
+<body>
+    <main>
+        <header>
+        <div class="topmenu">
+                <h1> CV <br> 
+                Nasanovich <br>
+                Aliaksandr 
+                </h1>              
+            <!-- <div class="image"> <img width="170" height="250" src="./assets/img/foto.jpg" alt="my photo" title="my photo"> </div> -->
+            <nav class="nav">
+                <ul>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#goals">Key abilities and goals</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#qualifications">Qualifications</a></li>
+                <li><a href="#example code">Example code</a></li>
+                <li><a href="#english">English level</a></li>
+                </ul>
+            </nav>
+        </div>
+        </header>
+        <div class="content">
+            <div id="contact" class="block"><h2>Contact</h2>
+            <address>
+            <ul>
+                <li>Belarus, Minsk</li>
+                <li>Email: nasanovicha@gmail.com</li>
+                <li>Discord account: Alixandr (@AlixandrN)</li>
+            </ul>
+            </address>
+        </div>
+        <div id="goals" class="block"><h2>Key abilities and goals</h2>
+            <p>Try to make projects as high quality as possible. 
+                Desire to learn how to develop useful web applications.
+                Want to become a member of a team that makes interesting and progressive projects.
+            </p>
+        </div>
+        <div id="skills" class="block"><h2>Skills</h2>
+            <ul>
+                <li>HTML/CSS</li>
+                <li>JS</li>
+                <li>GIT</li>
+                <li>GitHub</li>
+            </ul>
+        </div>
+        <div id="qualifications" class="block"><h2>Qualifications</h2>
+            <ul>
+                <li>2004-2009 Belarusian National Technical University <br>
+                    Specialty - energy engineer 
+                </li>
+                <li>2009-2011 development of electricity supply projects</li>
+                <li>2012-2021 chief power engineer</li>
+            </ul>
+        </div>
+        <div id="example code" class="block_full"><h2>Example code</h2>
+            <div class="code_fon">
+            <pre> <code> 
+                function narcissistic(value) { <br>
+                let arr = Array.from(String(value), Number); <br>
+                let summ = arr.reduce((total,current) => total+current**arr.length,0); <br>
+                if (summ === value) {return true} <br>
+                else {return false}} 
+            </code>           
+            </pre>
+            </div>
+        </div>
+        <div id="english" class="block_full"><h2>English level</h2>
+            <p>English level  A2+ <br>
+            (work experience for 3 months in Australia)</p>
+        </div>  
+    </div>
+<footer>    
+        <div> 
+            <span> &copy; <time>2022</time> Nasanovich Aliaksandr </span>
+            <span> <a href="https://alixandrn.github.io/rsschool-cv/">https://alixandrn.github.io/rsschool-cv/</a> </span> 
+        </div>
+        <!-- <img width="150" height="50" src="./assets/img/logRSSchool.PNG" alt="logRSSchool">     -->
+</footer>
+</main>
+</body>
+</html>
